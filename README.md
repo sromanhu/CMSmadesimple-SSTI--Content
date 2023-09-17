@@ -49,7 +49,7 @@ a{*comment*}b
 ![Smarty Test payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/73943f46-93d5-4abd-92a2-03a06f809b63)
 
 
-
+<br>
 And the result is the following:
 ![Smarty Test resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/8a13c1a9-7264-4fa9-a7d5-afffe2a4a07b)
 
