@@ -57,11 +57,7 @@ And the result is the following:
 
 
 <br>
-Since the payload has worked we know that it uses Smarty.
-
-
-<br>
-We obtain the Smarty version with the following payload:
+Since the payload has worked we know that it uses Smarty, then we obtain the Smarty version with the following payload:
 
 ### SSTI Payload:
 
