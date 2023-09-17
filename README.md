@@ -1,4 +1,4 @@
-# CMSmadesimple STTI v2.2.18
+# CMSmadesimple SSTI v2.2.18
 
 ## Author: (Sergio)
 
