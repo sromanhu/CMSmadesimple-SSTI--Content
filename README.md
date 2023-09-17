@@ -17,7 +17,7 @@ When logging into the panel, we will go to the "Content Manager- Title" section 
 
 
 
-
+<br>
 We edit that Content field with a template malicious payload.
 
 
