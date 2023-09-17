@@ -54,7 +54,7 @@ And the result is the following:
 Since the payload has worked we know that it uses Smarty.
 
 <br>
-We obtain the version with the following payload:
+We obtain the Smarty version with the following payload:
 
 ### SSTI Payload:
 
@@ -65,7 +65,8 @@ We obtain the version with the following payload:
 ![Smarty version payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/94684fa5-bfdd-4da9-bc07-6eac9c2b6208)
 
 
-And the result is the following:
+And in the result we can see the version of Smarty using the SSTI:
+
 ![Smarty version resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/f44e2a4a-26a3-4b18-afaf-1a4d774cfc81)
 
 
