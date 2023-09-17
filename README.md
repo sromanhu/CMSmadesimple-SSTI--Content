@@ -1,36 +1,36 @@
-# CMSmadesimple Stored XSS v2.2.18
+# CMSmadesimple STTI v2.2.18
 
 ## Author: (Sergio)
 
-**Description:** Cross Site Scripting vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the Title in the Content - News Menu.
+**Description:** Server Side Template Injection (SSTI) vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to use native template syntax to inject a malicious payload into a template, which is then executed server-side.
 
-**Attack Vectors:** Scripting A vulnerability in the sanitization of the entry in the Ttile of "Content - News Menu" allows injecting JavaScript code that will be executed when the user accesses the web page.
+**Attack Vectors:** A SSTI vulnerability in the sanitization of the entry in the Content of "Content - Content Manager Menu" allows injecting  a malicious payload into a template code that will be executed when the user accesses the web page.
 
 ---
 
 ### POC:
 
 
-When logging into the panel, we will go to the "Content- News" section off General Menu.
+When logging into the panel, we will go to the "Content Manager- Title" section off Content Menu.
 
-![XSS Title](https://github.com/sromanhu/CMSmadesimple-Stored-XSS---News/assets/87250597/7b2f1dc3-2d69-4ecb-8fee-a1b32377dfc4)
-
-
+![STTI Payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/dd0af2bd-950a-4ae9-a77b-f82e02c7430d)
 
 
 
-We edit that Content - News Menu with the payload that we have created and see that we can inject arbitrary Javascript code in the Title field.
+
+We edit that Content field with a template malicious payload.
 
 
-### XSS Payload:
+### SSTI Payload:
 
 ```js
-'"><svg/onload=prompt('Title')>
+{{4*4}}
 ```
 
 
 In the following image you can see the embedded code that executes the payload in the main web.
-![XSS Title resultado](https://github.com/sromanhu/CMSmadesimple-Stored-XSS---News/assets/87250597/bfe17aeb-5139-4f6c-b09c-5d38d6a7b57b)
+![STTI Resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/bdeb2587-879c-4bbb-8582-b919fc750abb)
+
 
 
 
@@ -42,6 +42,4 @@ In the following image you can see the embedded code that executes the payload i
 ### Additional Information:
 http://cszcms.com](http://www.cmsmadesimple.org/
 
-https://owasp.org/Top10/es/A03_2021-Injection/
-
-https://owasp.org/www-community/attacks/xss/
+[https://owasp.org/Top10/es/A03_2021-Injection/
