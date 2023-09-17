@@ -27,7 +27,7 @@ We edit that Content field with a template malicious payload.
 {{4*4}}
 ```
 
-
+<br>
 In the following image you can see the embedded code that executes the payload in the main web.
 ![STTI Resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/bdeb2587-879c-4bbb-8582-b919fc750abb)
 
