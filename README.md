@@ -36,6 +36,8 @@ In the following image you can see the embedded code that executes the payload i
 
 <br>
 We identify the technology used with the following payload.
+
+### SSTI Payload:
 ```js
 a{*comment*}b
 ```
