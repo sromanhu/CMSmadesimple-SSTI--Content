@@ -13,7 +13,8 @@
 
 When logging into the panel, we will go to the "Content Manager- Title" section off Content Menu.
 
-![STTI Payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/dd0af2bd-950a-4ae9-a77b-f82e02c7430d)
+![SSTI Payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/bf05b1a2-9d58-4f0d-8f54-00211465d90a)
+
 
 
 
@@ -30,7 +31,8 @@ We edit that Content field with a template malicious payload.
 <br>
 In the following image you can see the embedded code that executes the payload in the main web.
 
-![STTI Resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/793939bd-78bb-4df0-bdf9-fd3c772339e2)
+![SSTI Resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/848c4def-6351-4ee3-b532-4ab0f7d2357e)
+
 
 
 
@@ -44,11 +46,13 @@ We identify the technology used with the following payload.
 a{*comment*}b
 ```
 
-![Smarty Test payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/8fefaeef-8155-488b-8a00-de3cef8b9229)
+![Smarty Test payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/73943f46-93d5-4abd-92a2-03a06f809b63)
+
 
 
 And the result is the following:
-![Smarty Test resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/ca8a0e0e-6fc6-4fd4-9bb9-ab56a0ebc7d2)
+![Smarty Test resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/8a13c1a9-7264-4fa9-a7d5-afffe2a4a07b)
+
 
 
 Since the payload has worked we know that it uses Smarty.
@@ -62,12 +66,14 @@ We obtain the Smarty version with the following payload:
 {$smarty.version}
 ```
 
-![Smarty version payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/94684fa5-bfdd-4da9-bc07-6eac9c2b6208)
+![Smarty version payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/efcc4771-61e6-4e66-845d-450cff7ff2ce)
+
 
 
 And in the result we can see the version of Smarty using the SSTI:
 
-![Smarty version resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/f44e2a4a-26a3-4b18-afaf-1a4d774cfc81)
+![Smarty version resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/c80e1ee2-d5f2-4a28-be77-ba90a7600c8e)
+
 
 
 </br>
