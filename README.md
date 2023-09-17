@@ -29,7 +29,8 @@ We edit that Content field with a template malicious payload.
 
 <br>
 In the following image you can see the embedded code that executes the payload in the main web.
-![STTI Resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/bdeb2587-879c-4bbb-8582-b919fc750abb)
+![STTI Resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/783df17d-d756-40aa-ad53-22bf61fcd274)
+
 
 
 We identify the technology used with the following payload.
