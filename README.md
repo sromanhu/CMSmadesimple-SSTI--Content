@@ -32,9 +32,30 @@ In the following image you can see the embedded code that executes the payload i
 ![STTI Resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/bdeb2587-879c-4bbb-8582-b919fc750abb)
 
 
+We identify the technology used with the following payload.
+```js
+a{*comment*}b
+```
+
+![Smarty Test payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/8fefaeef-8155-488b-8a00-de3cef8b9229)
 
 
+And the result is the following:
+![Smarty Test resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/ca8a0e0e-6fc6-4fd4-9bb9-ab56a0ebc7d2)
 
+
+Since the payload has worked we know that it uses Smarty.
+
+We obtain the version with the following payload:
+```js
+{$smarty.version}
+```
+
+![Smarty version payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/94684fa5-bfdd-4da9-bc07-6eac9c2b6208)
+
+
+And the result is the following:
+![Smarty version resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/f44e2a4a-26a3-4b18-afaf-1a4d774cfc81)
 
 
 </br>
