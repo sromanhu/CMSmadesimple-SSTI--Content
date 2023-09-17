@@ -51,6 +51,8 @@ a{*comment*}b
 
 <br>
 And the result is the following:
+
+
 ![Smarty Test resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/8a13c1a9-7264-4fa9-a7d5-afffe2a4a07b)
 
 
