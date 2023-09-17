@@ -53,6 +53,7 @@ And the result is the following:
 
 Since the payload has worked we know that it uses Smarty.
 
+<br>
 We obtain the version with the following payload:
 ```js
 {$smarty.version}
