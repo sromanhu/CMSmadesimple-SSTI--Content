@@ -74,6 +74,21 @@ And in the result we can see the version of Smarty using the SSTI:
 ![Smarty version resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/c80e1ee2-d5f2-4a28-be77-ba90a7600c8e)
 
 
+We can also use the following payload to see the server name variable:
+
+### SSTI Payload:
+
+```js
+{$smarty.server.SERVER_NAME}
+```
+
+![Smarty Server Name payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/c078dcf5-7bd8-429b-9286-27937e0833fc)
+
+
+![Smarty Server Name resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/ccde005e-8cc2-4cc2-a127-850238893b03)
+
+
+
 
 </br>
 
