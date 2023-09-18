@@ -89,7 +89,7 @@ We can also use the following payload to see the server name variable:
 
 <br>
 Below is the result of the SSTI payload with the server name
-
+<br>
 </br>
 
 
