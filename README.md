@@ -101,6 +101,6 @@ Below is the result of the SSTI payload with the server name:
 </br>
 
 ### Additional Information:
-http://cszcms.com](http://www.cmsmadesimple.org/
+http://www.cmsmadesimple.org/
 
-[https://owasp.org/Top10/es/A03_2021-Injection/
+https://owasp.org/Top10/es/A03_2021-Injection/
