@@ -82,6 +82,8 @@ We can also use the following payload to see the server name variable:
 {$smarty.server.SERVER_NAME}
 ```
 
+
+
 ![Smarty Server Name payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/c078dcf5-7bd8-429b-9286-27937e0833fc)
 
 
