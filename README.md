@@ -76,7 +76,8 @@ Since the payload has worked we know that it uses Smarty, then we obtain the Sma
 
 And in the result we can see the version of Smarty using the SSTI:
 
-![Smarty version resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/c80e1ee2-d5f2-4a28-be77-ba90a7600c8e)
+![Smarty version resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/8984b6dd-22ed-4b26-ac63-1287708d7ed5)
+
 
 <br>
 We can also use the following payload to see the server name variable:
