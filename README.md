@@ -13,7 +13,8 @@
 
 When logging into the panel, we will go to the "Content Manager- Title" section off Content Menu.
 
-![SSTI Payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/bf05b1a2-9d58-4f0d-8f54-00211465d90a)
+![SSTI Payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/f1b5d449-6483-4719-86c1-d2602668b4b8)
+
 
 
 
@@ -31,7 +32,8 @@ We edit that Content field with a template malicious payload.
 <br>
 In the following image you can see the embedded code that executes the payload in the main web.
 
-![SSTI Resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/848c4def-6351-4ee3-b532-4ab0f7d2357e)
+![SSTI Resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/b4e2af09-190c-486a-81c4-a3f0eb477762)
+
 
 
 
@@ -46,14 +48,16 @@ We identify the technology used with the following payload.
 a{*comment*}b
 ```
 
-![Smarty Test payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/73943f46-93d5-4abd-92a2-03a06f809b63)
+![Smarty Test payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/463e36fc-830d-4fb7-ac21-49e78ad86e68)
+
 
 
 <br>
 And the result is the following:
 
 
-![Smarty Test resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/8a13c1a9-7264-4fa9-a7d5-afffe2a4a07b)
+![Smarty Test resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/343f36c5-be62-4dc3-99a8-32df3c0d0241)
+
 
 
 <br>
@@ -65,7 +69,8 @@ Since the payload has worked we know that it uses Smarty, then we obtain the Sma
 {$smarty.version}
 ```
 
-![Smarty version payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/efcc4771-61e6-4e66-845d-450cff7ff2ce)
+![Smarty version payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/51c3ff82-1251-45ab-9acc-5469ead3a8d5)
+
 
 
 
@@ -84,7 +89,8 @@ We can also use the following payload to see the server name variable:
 
 </br>
 
-![Smarty Server Name payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/c078dcf5-7bd8-429b-9286-27937e0833fc)
+![Smarty version resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/742be017-6d26-4ae2-a805-09ecc5bfb246)
+
 
 
 <br>
@@ -92,8 +98,12 @@ Below is the result of the SSTI payload with the server name:
 <br>
 </br>
 
+![Smarty Server Name payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/59b74cb7-43c1-4e58-9b83-6783aed24008)
 
-![Smarty Server Name resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/ccde005e-8cc2-4cc2-a127-850238893b03)
+
+
+![Smarty Server Name resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/7a5492bd-078b-4191-b2f7-fd7ac50f230e)
+
 
 
 
