@@ -90,8 +90,7 @@ We can also use the following payload to see the server name variable:
 
 </br>
 
-![Smarty version resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/742be017-6d26-4ae2-a805-09ecc5bfb246)
-
+![Smarty Server Name payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/d0b845e1-b9d2-4051-b557-ce43568e7f19)
 
 
 <br>
@@ -99,11 +98,8 @@ Below is the result of the SSTI payload with the server name:
 <br>
 </br>
 
-![Smarty Server Name payload](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/59b74cb7-43c1-4e58-9b83-6783aed24008)
+![Smarty Server Name resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/be3ef7c9-027a-4965-bcda-5c49703c94d1)
 
-
-
-![Smarty Server Name resultado](https://github.com/sromanhu/CMSmadesimple-SSTI--Content/assets/87250597/7a5492bd-078b-4191-b2f7-fd7ac50f230e)
 
 
 
